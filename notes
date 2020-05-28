@@ -1,3 +1,3 @@
 1. if a seperate folder for hugo is added, it is not detected in github actions
 2. Themes folder has to be committed properly with all contents 
-3. default branch should be master... not sure about this yet
+3. default branch is gh-pages 

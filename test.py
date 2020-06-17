@@ -151,7 +151,11 @@ class TestTemplate(unittest.TestCase):
             self.fail(ex.msg)
 
 #URL should be VM's IP:PORT combination where the project is hosted
-url="http://192.168.56.102:4000"
+#rl="https://cs-ej4104-fall-2020.github.io/asawari44-devopsproject/"
+org=str(sys.argv[0])
+repo=str(sys.argv[1])
+url="https://"+org+".github.io/"+repo
+print(url)
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(TestTemplate)
     unittest.TextTestRunner(verbosity=2).run(suite)

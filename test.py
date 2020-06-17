@@ -3,6 +3,7 @@ A simple selenium test example written by python
 """
 
 import unittest
+import sys
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 

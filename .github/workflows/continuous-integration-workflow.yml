@@ -55,7 +55,7 @@ jobs:
           repo: ${{ github.repository }} 
           org: ${{ github.organization }} 
         run: |
-          pytest test.py $org $repo 
+          python test.py $org $repo 
            
 
 
